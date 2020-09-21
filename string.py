@@ -1,0 +1,10 @@
+# APC
+x = str(input())
+y = str(input())
+z = str(input())
+print (""+x+y+z)
+print ("", x)
+print ("", y+y)
+print ("", z,z,z)
+print ("X == "+x +", Y == "+y +", Z == "+z)
+print ("X != "+x +", Y != "+y +", Z != "+z)
