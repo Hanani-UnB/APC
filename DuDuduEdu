@@ -1,0 +1,11 @@
+# APC
+Valores= input().split()
+a= float(Valores[0])
+b= float(Valores[1])
+c= float(Valores[2])
+P_Du= a*0.1
+P_Dudu= b*0.1
+P_Edu= c*0.1
+Total= a+P_Du+b+P_Dudu+c+P_Edu
+print(f"{a+P_Du:.2f} {b+P_Dudu:.2f} {c+P_Edu:.2f}")
+print(f"{Total:.2f}")
